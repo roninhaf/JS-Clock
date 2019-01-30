@@ -24,4 +24,5 @@ function clockDisplay(){
     const hourInDegree = (hour/12)*360+90;
     hourHand.style.transform = `rotate(${hourInDegree}deg)`;
 }
+
 setInterval(clockDisplay,1000);
